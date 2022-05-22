@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62,5%;
+}
+
+body {
+  background-color: #121417;
+  font-family: 'Overpass', sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .card {
+  background-color: rgba(37, 45, 55, 0.6);
+  width: 88%;
+  border-radius: 1.5rem;
+  padding: 2.5rem;
+}
+
+.container .card .star {
+  background-color: rgba(124, 135, 152, 0.2);
+  width: 4rem;
+  height: 4rem;
+  padding: 1.2rem;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .card .star img {
+  width: 1.4rem;
+}
+
+.container .card h1 {
+  font-size: 2.4rem;
+  color: white;
+  margin-top: 1.9rem;
+}
+
+.container .card .text {
+  color: #959eac;
+}
+/*# sourceMappingURL=style.css.map */
