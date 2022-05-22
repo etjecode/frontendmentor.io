@@ -36,9 +36,36 @@
 
         .text {
             color: $light-grey;
+            font-size: 1.415rem;
+            line-height: 2.2rem;
+            margin-top: 1.2rem;
         }
 
-        rating-wrapper {
+        .rating-wrapper {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+
+            .rating-btn {
+                color: $light-grey;
+                font-size: 1.3rem;
+                font-weight: 700;
+                background-color: $medium-grey;
+                width: 4.1rem;
+                height: 4.1rem;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 2.6rem;
+
+                div {
+
+                }
+            }
+
+
         
         }
     }
