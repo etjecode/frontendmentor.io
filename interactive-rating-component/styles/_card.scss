@@ -13,6 +13,10 @@
         border-radius: 1.5rem;
         padding: 2.5rem;
 
+        .hide {
+            display: none;
+        }
+
         .star {
             background-color: $medium-grey;
             width: 4rem;

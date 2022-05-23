@@ -35,6 +35,10 @@ body {
   padding: 2.5rem;
 }
 
+.container .card .hide {
+  display: none;
+}
+
 .container .card .star {
   background-color: rgba(124, 135, 152, 0.2);
   width: 4rem;
