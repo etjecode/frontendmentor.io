@@ -61,12 +61,54 @@
                 margin-top: 2.6rem;
 
                 div {
+                    transform: translateY(10%);
+                }
 
+                &:hover {
+                    background-color: $orange;
+                    cursor: pointer;
+
+                    div {
+                        color: $white;
+                    }
                 }
             }
 
+            .active {
+                background-color: $light-grey;
 
-        
+                div {
+                    color: $white;
+                }
+            }
         }
+
+        .submit-btn {
+            background-color: $orange;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 2.5rem;
+            padding: 1.3rem;
+            border-radius: 4rem;
+
+            div {
+                text-transform: uppercase;
+                color: $white;
+                font-size: 1.6rem;
+                letter-spacing: 0.1rem;
+            }
+
+            &:hover {
+                background-color: $white;
+                cursor: pointer;
+
+                div {
+                    color: $orange;
+                    font-weight: 700;
+                }
+            }
+        }
+
     }
 }
