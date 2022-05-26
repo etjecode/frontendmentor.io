@@ -13,10 +13,6 @@
         border-radius: 1.5rem;
         padding: 2.5rem;
 
-        .hide {
-            display: none;
-        }
-
         .star {
             background-color: $medium-grey;
             width: 4rem;
@@ -32,7 +28,7 @@
             }
         }
 
-        h1 {
+        .title {
             font-size: 2.4rem;
             color: $white;
             margin-top: 1.9rem;
@@ -114,5 +110,37 @@
             }
         }
 
+        .card-content-2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            img {
+                width: 1.5rem;
+                margin-top: 1rem;
+            }
+
+            .text {
+                text-align: center;
+                margin-bottom: 1.5rem;
+            }
+
+            .result {
+                background-color: $medium-grey;
+                padding: 0.8rem 1.4rem;
+                border-radius: 2rem;
+                margin-top: 2.4rem;
+                margin-bottom: 0.6rem;
+                
+                div {
+                    color: $orange;
+                    font-size: 1.4rem;
+                }
+            }
+        }
+
+        .hide {
+            display: none;
+        }
     }
 }
